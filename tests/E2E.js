@@ -3,7 +3,7 @@ const Joi = require('joi');
 
 Feature('End to End');
 
-Scenario.only('Update and delete new user by new admin account workflow', async ({ I }) => {
+Scenario('Update and delete new user by new admin account workflow', async ({ I }) => {
     const admin = {
         "email": "eve.holt@reqres.in",
         "password": "pistol"
