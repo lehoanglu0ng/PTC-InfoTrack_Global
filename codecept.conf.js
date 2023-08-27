@@ -19,5 +19,23 @@ exports.config = {
   include: {
     I: './steps_file.js'
   },
-  name: 'PTC-InfoTrack_Global'
+  name: 'PTC-InfoTrack_Global',
+  "mocha": {
+    "reporterOptions": {
+      "codeceptjs-cli-reporter": {
+        "stdout": "-",
+        "options": {
+          "verbose": true,
+          "steps": true,
+        }
+      },
+      "mochawesome": {
+        "stdout": "./output/console.log",
+        "options": {
+          "reportDir": "./output",
+          "reportFilename": "report"
+        }
+      }
+    }
+  }
 }

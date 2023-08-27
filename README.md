@@ -29,3 +29,5 @@
 
 # Execute tests
 ```npx codeceptjs run --steps```
+#### with report
+```npx codeceptjs run --reporter mocha-multi```
