@@ -26,3 +26,6 @@
    1. Verify that the API successfully deletes an existing user when sending a valid DELETE request.
 
 >Note: Please replace {id} with the actual ID of a user created during the POST endpoint testing to perform the GET, PUT, and DELETE requests.
+
+# Execute tests
+```npx codeceptjs run --steps```
