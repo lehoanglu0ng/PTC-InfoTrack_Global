@@ -28,6 +28,9 @@
 >Note: Please replace {id} with the actual ID of a user created during the POST endpoint testing to perform the GET, PUT, and DELETE requests.
 
 # Execute tests
-```npx codeceptjs run --steps```
+`npx codeceptjs run --steps`
 #### with report
-```npx codeceptjs run --reporter mocha-multi```
+`npx codeceptjs run --reporter mocha-multi`
+
+- Open `./output/report.html` for the report
+- All test cases in `./tests` folder
